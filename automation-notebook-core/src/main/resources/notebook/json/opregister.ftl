@@ -1,7 +1,7 @@
 
 {
   "type" : "register",
-  "opId",  "${opId}"
+  "opId" :  "${opId}"
   
   <#include "/notebook/json/footer.ftl">
 }

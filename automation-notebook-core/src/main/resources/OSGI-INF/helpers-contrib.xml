@@ -6,6 +6,7 @@
 
   <extension target="org.nuxeo.ecm.core.operation.OperationServiceComponent"
              point="contextHelpers">
+    <contextHelper id="console" class="org.nuxeo.ecm.automation.interactive.helpers.NoteBookConsole"/>
     <contextHelper id="Console" class="org.nuxeo.ecm.automation.interactive.helpers.NoteBookConsole"/>
     <contextHelper id="Assert" class="org.nuxeo.ecm.automation.interactive.helpers.AssertHelper"/>
   </extension>
